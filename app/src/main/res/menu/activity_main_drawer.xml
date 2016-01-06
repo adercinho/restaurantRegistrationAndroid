@@ -3,9 +3,13 @@
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_register" android:icon="@android:drawable/ic_menu_add"
-            android:title="Register"/>
+            android:title="@string/register"/>
         <item android:id="@+id/nav_my_restaurants" android:icon="@android:drawable/ic_menu_view"
-            android:title="My Restaurants" />
+            android:title="@string/my_restaurants" />
+        <item android:id="@+id/nav_maps_restaurants" android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="@string/maps_restaurants" />
+        <item android:id="@+id/nav_about" android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/about" />
     </group>
 
 </menu>

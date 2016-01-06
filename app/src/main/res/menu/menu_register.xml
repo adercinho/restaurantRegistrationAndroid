@@ -2,6 +2,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="br.com.devops.restaurantregistration.RegisterActivity">
-    <item android:id="@+id/action_settings" android:title="configurações"
+    <item android:id="@+id/action_settings" android:title="@string/configuration"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>

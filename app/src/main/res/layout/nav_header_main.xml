@@ -14,10 +14,10 @@
         android:src="@android:drawable/ic_dialog_map" android:id="@+id/imageView" />
 
     <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing" android:text="Restaurant Registration"
+        android:paddingTop="@dimen/nav_header_vertical_spacing" android:text="@string/restaurant_registration"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Register your Restaurant here!" android:id="@+id/textView" />
+        android:text="@string/register_your_restaurant_here" android:id="@+id/textView" />
 
 </LinearLayout>
